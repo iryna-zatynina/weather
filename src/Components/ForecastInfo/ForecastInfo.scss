@@ -1,0 +1,41 @@
+.ForecastInfo {
+  .wraper {
+    background: url("../../resource/img/bg3.jpeg");
+    background-size: cover;
+    padding: 20px;
+    max-width: 700px;
+  }
+  &__block {
+    max-width: 700px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 20px;
+    h3 {
+      margin: 0;
+    }
+    p {
+      margin-top: 0;
+    }
+    &>div {
+      display: flex;
+      gap: 4%;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      .temperature {
+        font-weight: bold;
+        font-size: 90px;
+        line-height: 100%;
+      }
+      .condition {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      span {
+        font-weight: bold;
+      }
+
+    }
+  }
+}
