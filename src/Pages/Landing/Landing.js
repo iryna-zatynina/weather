@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "../../Components/Header/Header";
-import LandingMain from "../../Components/LandingMain/LandingMain";
+import DiscoverForecast from "../../Components/DiscoverForecast/DiscoverForecast";
 import './Landing.scss'
 import {useTranslation} from "react-i18next";
 
@@ -15,7 +15,7 @@ const Landing = () => {
     return (
         <>
             <Header  />
-            <LandingMain />
+            <DiscoverForecast />
 
         </>
     );
